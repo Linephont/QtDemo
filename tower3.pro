@@ -16,11 +16,19 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    levelwindow.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    myownwindow.cpp \
+    mypushbutton.cpp \
+    tower.cpp
 
 HEADERS += \
-    mainwindow.h
+    levelwindow.h \
+    mainwindow.h \
+    myownwindow.h \
+    mypushbutton.h \
+    tower.h
 
 FORMS += \
     mainwindow.ui
@@ -29,3 +37,6 @@ FORMS += \
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+RESOURCES += \
+    res01.qrc

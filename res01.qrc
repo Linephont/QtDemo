@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>background.png</file>
+        <file>start.png</file>
+        <file>Coin0001.png</file>
+        <file>back.png</file>
+        <file>choosescene.jpg</file>
+        <file>yasina.png</file>
+        <file>level01btn.png</file>
+        <file>level02btn.png</file>
+        <file>level03btn.png</file>
+        <file>level01background.png</file>
+    </qresource>
+</RCC>
