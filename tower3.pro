@@ -19,16 +19,20 @@ SOURCES += \
     levelwindow.cpp \
     main.cpp \
     mainwindow.cpp \
+    monster.cpp \
     myownwindow.cpp \
     mypushbutton.cpp \
-    tower.cpp
+    tower.cpp \
+    way.cpp
 
 HEADERS += \
     levelwindow.h \
     mainwindow.h \
+    monster.h \
     myownwindow.h \
     mypushbutton.h \
-    tower.h
+    tower.h \
+    way.h
 
 FORMS += \
     mainwindow.ui

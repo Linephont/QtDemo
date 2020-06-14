@@ -9,6 +9,8 @@
         <file>level01btn.png</file>
         <file>level02btn.png</file>
         <file>level03btn.png</file>
+        <file>startlevel.png</file>
+        <file>jiang01.png</file>
         <file>level01background.png</file>
     </qresource>
 </RCC>
